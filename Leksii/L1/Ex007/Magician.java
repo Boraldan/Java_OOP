@@ -1,4 +1,4 @@
-package org.example.Leksii.L1.Ex007;
+package Leksii.L1.Ex007;
  
 public class Magician extends BaseHero {
 

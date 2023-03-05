@@ -1,4 +1,4 @@
-package org.example.Leksii.L1.Ex006;
+package Leksii.L1.Ex006;
 
 public class Priest extends BaseHero {
 

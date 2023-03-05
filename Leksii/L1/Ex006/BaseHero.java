@@ -1,4 +1,4 @@
-package org.example.Leksii.L1.Ex006;
+package Leksii.L1.Ex006;
 
 import java.util.Random;
 
@@ -31,9 +31,9 @@ public class BaseHero {
                 this.name, this.hp, this.getClass().getSimpleName());
     }
     
-    public void healed(int Hp) {
-        this.hp = Hp + this.hp > this.maxHp ? this.maxHp : Hp + this.hp;
-    }
+//    public void healed(int Hp) {
+//        this.hp = Hp + this.hp > this.maxHp ? this.maxHp : Hp + this.hp;
+//    }
 
     public void GetDamage(int damage) {
         if (this.hp - damage > 0) {

@@ -1,4 +1,4 @@
-package org.example.Leksii.L1.Ex007;
+package Leksii.L1.Ex007;
 
 import java.util.Random;
  
@@ -44,7 +44,8 @@ public class BaseHero {
     }
 
     public void Attack(BaseHero target) {
-        int damage = BaseHero.r.nextInt(10, 20);
+        int damage = BaseHero.r.nextInt(30, 35);
         target.GetDamage(damage);
+        System.out.println("Нанес урона " + damage);
     }
 }

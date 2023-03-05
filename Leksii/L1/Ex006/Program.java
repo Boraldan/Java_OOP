@@ -1,9 +1,9 @@
-package org.example.Leksii.L1.Ex006;
+package Leksii.L1.Ex006;
 
 public class Program {
     public static void main(String[] args) {
-        Magician hero1 = new Magician();
-        System.out.println(hero1.getInfo());
+//        Magician hero1 = new Magician();
+//        System.out.println(hero1.getInfo());
         
         Priest hero2 = new Priest();
         System.out.println(hero2.getInfo());
@@ -12,9 +12,9 @@ public class Program {
         System.out.println(hero3.getInfo());
 
         hero3.GetDamage(hero2.Attack());
-        hero3.GetDamage(hero3.Attack());
+//        hero3.GetDamage(hero3.Attack());
         System.out.println(hero3.getInfo());
-        System.out.println(hero2.getInfo());
+//        System.out.println(hero2.getInfo());
         //hero3.GetDamage(hero3.Attack());
     }
 }

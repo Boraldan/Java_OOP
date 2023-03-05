@@ -1,4 +1,4 @@
-package org.example.Leksii.L1.Ex006;
+package Leksii.L1.Ex006;
 
 import java.util.Random;
 
