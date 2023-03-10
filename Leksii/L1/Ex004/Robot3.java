@@ -1,4 +1,4 @@
-package org.example.Leksii.L1.Ex004;
+package Leksii.L1.Ex004;
 
 import java.util.ArrayList;
 

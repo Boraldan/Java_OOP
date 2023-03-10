@@ -52,7 +52,6 @@ public class Program {
                 teams.add(new Magician());
                 magicianCount++;
             }
-
             System.out.println(teams.get(i).getInfo());
         }
         System.out.println();

@@ -16,5 +16,11 @@ public class Fight {
 
         hero3.healed(hero2);
         System.out.println("после лечения " + hero2.getInfo());
+
+        hero3.Attack(hero3); // атакует сам себя
+        System.out.println(hero3.getInfo());
+
+        hero3.Attack(hero1);
+
     }
 }
