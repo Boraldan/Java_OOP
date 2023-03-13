@@ -1,4 +1,4 @@
-package Lesson_09.Ex002.ExBeverage;
+package Leksii.L3.Ex002.ExBeverage;
 
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package Lesson_09.Ex005;
+package Leksii.L3.Ex005;
 
 import java.util.Comparator;
 
@@ -6,7 +6,7 @@ public class AgeComporator implements Comparator<Worker>{
 
     @Override
     public int compare(Worker o1, Worker o2) {
-        return Integer.compare(o1.age, o2.age);
+        return Integer.compare(o1.salary, o2.salary);
     }
     
 }

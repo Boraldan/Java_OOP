@@ -1,4 +1,4 @@
-package Lesson_09.Ex002.ExBeverage;
+package Leksii.L3.Ex002.ExBeverage;
 
 public class Water extends Ingredient {
 

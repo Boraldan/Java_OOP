@@ -1,4 +1,4 @@
-package Semi3.Task2_V;
+package DZ3;
 
 import java.util.ArrayList;
 import java.util.Iterator;

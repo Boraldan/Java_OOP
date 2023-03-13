@@ -1,4 +1,4 @@
-package Lesson_09.Ex004.ExBeverage;
+package Leksii.L3.Ex004.ExBeverage;
 
 public abstract class Ingredient {
     public String brand;
