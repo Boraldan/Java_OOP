@@ -1,4 +1,4 @@
-package org.example.Semi1.Task2;
+package Semi1.Task2;
 
 public abstract class Product {
     protected static String name;

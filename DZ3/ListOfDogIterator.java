@@ -14,7 +14,6 @@ public class ListOfDogIterator implements Iterator<Dog> {
 
     @Override
     public boolean hasNext() {
-//        this.count++;
         return count < dogsIterator.size();
     }
 

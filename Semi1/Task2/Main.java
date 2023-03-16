@@ -1,4 +1,4 @@
-package org.example.Semi1.Task2;
+package Semi1.Task2;
 
 import java.util.ArrayList;
 import java.util.Arrays;

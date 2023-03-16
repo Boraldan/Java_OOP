@@ -5,6 +5,7 @@ import java.util.*;
 public class Main {
     /**
      * Создать класс Dog и добавить возможноность итерирования по нему
+     *
      * @param args
      */
     public static void main(String[] args) {
@@ -13,8 +14,9 @@ public class Main {
                 new Dog("Bob"),
                 new Dog("Bib"),
                 new Dog("Nic")));
+
         Iterator<Dog> we = dogs.iterator();
-        while(we.hasNext()){
+        while (we.hasNext()) {
             System.out.println(we.next().getName());
         }
 
@@ -23,7 +25,7 @@ public class Main {
         System.out.println();
 
         Iterator<Dog> we1 = dogs.iterator();
-        while(we1.hasNext()){
+        while (we1.hasNext()) {
             System.out.println(we1.next().getName());
         }
     }
