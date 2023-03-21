@@ -1,6 +1,7 @@
 package Semi4.Task_Aktibaev_Generic;
 
-public class Student3 implements Comparable<Student3>{
+public class Student3 implements Comparable<Student3>, Test{
+//public class Student3 implements Comparable<Student3>{   // вариант без интерфейса TEST
     private int id;
     private String name;
 

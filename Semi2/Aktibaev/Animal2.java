@@ -10,6 +10,6 @@ public abstract class Animal2 implements Speakable {
     public abstract void Speak();
 
     public void save() {
-        writable.save( this);
+        writable.save(this);
     }
 }

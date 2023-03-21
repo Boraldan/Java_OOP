@@ -4,12 +4,11 @@ package Semi4.Task_Aktibaev_Generic;
  * Задача без Дженериков в решена в Семинаре 3. Смотреть исходник.
  * */
 
-
-
 public class Main {
     public static void main(String[] args) {
 
-        StudyGroup3<Student3> group = new StudyGroup3();
+        StudyGroup3<Teacher> group = new StudyGroup3();
+//        StudyGroup3<Student3> group = new StudyGroup3();  // или Student3 или Teacher или любой другой
         Service service = new Service(group);
 
         service.addStudet("Ваня");
