@@ -1,9 +1,8 @@
 package Leksii.L5.Ex001Calc;
 
-public class SumModel extends CalcModel {
-
+public class SubModel extends CalcModel {
     private String title;
-    public SumModel (String title) {
+    public SubModel (String title) {
         this.title = title;
     }
 
@@ -12,10 +11,9 @@ public class SumModel extends CalcModel {
         return this.title;
     }
 
-    // do_it
     @Override
     public int result() {
-        return x + y;
+        return x - y;
     }
 
     @Override
@@ -26,7 +24,6 @@ public class SumModel extends CalcModel {
     @Override
     public void setY(int value) {
         super.y = value;
+
     }
-
-
 }

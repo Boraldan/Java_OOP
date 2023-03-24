@@ -3,11 +3,11 @@ package Leksii.L5.Ex001Calc;
 import java.util.Scanner;
 
 public class View {
-    Scanner in = new Scanner(System.in);
+    Scanner scan = new Scanner(System.in);
 
     public int getValue(String title) {
         System.out.printf("%s", title);
-        return in.nextInt();
+        return scan.nextInt();
     }
 
     // print(f'{title} = {data}')

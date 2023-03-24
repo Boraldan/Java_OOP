@@ -1,7 +1,7 @@
 package Leksii.L5.Ex001Calc;
 
 public class PresenterOfT<T extends CalcModel> {
- 
+
 
     View view;
     Model model;

@@ -1,4 +1,7 @@
 package Semi3.Aktibaev;
+
+import java.util.Collections;
+
 /**
  * Задача без Дженериков в решена в Семинаре 3. Смотреть исходник.
  * */
@@ -18,14 +21,16 @@ public class Main {
         }
         System.out.println();
 
-        service.sortByName();
+        service.sortByName();   // метод протисан в классе Servise
+//        Collections.sort(group.getStudent3List()); // или так вызвать сортировку по имени
 
         for (Student3 student : group) {
             System.out.println(student);
         }
         System.out.println();
 
-        service.sortById();
+        service.sortById(); // метод протисан в классе Servise
+//        Collections.sort(group.getStudent3List(), new StudentComparatorById()); // или так вызвать сортировку по имени Id
 
         for (Student3 student : group) {
             System.out.println(student);

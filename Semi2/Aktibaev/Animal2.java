@@ -1,7 +1,7 @@
 package Semi2.Aktibaev;
 
 public abstract class Animal2 implements Speakable {
-    Writable writable;
+   private Writable writable;
 
     public void setWritable(Writable writable) {
         this.writable = writable;
@@ -12,4 +12,6 @@ public abstract class Animal2 implements Speakable {
     public void save() {
         writable.save(this);
     }
+
+    public void reAni(){}
 }

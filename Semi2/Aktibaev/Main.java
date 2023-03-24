@@ -13,6 +13,12 @@ public class Main {
         cat.save();
         List<Speakable> ani = new ArrayList<>(Arrays.asList(cat, leo, rai));
         SpeakAll(ani);
+
+        Animal2 aniCat = new Cat2();
+        Cat2 cat2 = new Cat2();
+        cat2.reCat();
+        aniCat.reAni();
+
     }
 
     public static void SpeakAll(List<Speakable> ani) {

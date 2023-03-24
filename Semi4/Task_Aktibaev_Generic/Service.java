@@ -11,7 +11,7 @@ public class Service {
         idStudent = 0;
     }
     public void addStudet(String name){
-        Student3 student = new Student3(idStudent++, name);
+        Student3 student = new Student3(++idStudent, name);
         studyGroup3.addStudent(student);
     }
 

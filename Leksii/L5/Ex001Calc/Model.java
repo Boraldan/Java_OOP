@@ -6,4 +6,6 @@ public interface Model {
     void setX(int value);
 
     void setY(int value);
+
+    String getTitle();
 }

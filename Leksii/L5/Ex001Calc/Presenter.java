@@ -15,6 +15,6 @@ public class Presenter {
         model.setX(a);
         model.setY(b);
         int result = model.result();
-        view.print(result, "Sum: ");
+        view.print(result, model.getTitle());
     }
 }

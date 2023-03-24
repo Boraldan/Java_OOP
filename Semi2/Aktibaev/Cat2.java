@@ -5,4 +5,5 @@ public class Cat2 extends Animal2 {
         System.out.println("Myaa");
     }
 
+    public void reCat(){}
 }

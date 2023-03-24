@@ -1,4 +1,4 @@
-public class WorkerBuilder {
+//public class WorkerBuilder {
 //    private static WorkerBuilder instance = null;
 //    Worker obj;
 //
@@ -47,4 +47,4 @@ public class WorkerBuilder {
 //                "obj=" + obj +
 //                '}';
 //    }
-}
+//}

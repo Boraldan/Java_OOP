@@ -1,4 +1,4 @@
-package org.example.Semi1.Task4_Interface;
+package Semi1.Task4_Interface;
 
 public interface AnimalInterface {
 }

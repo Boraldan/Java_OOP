@@ -1,4 +1,4 @@
-package org.example.Semi1.task_Interface;
+package Semi1.task_Interface;
 
 public class Main {
     public static void main(String[] args) {
