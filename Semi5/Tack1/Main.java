@@ -1,14 +1,11 @@
-package Semi5;
+package Semi5.Tack1;
 
-import Semi5.model.BankUsers;
-import Semi5.model.Company;
-import Semi5.model.Human;
-import Semi5.model.User;
-import Semi5.view.UserView;
+import Semi5.Tack1.model.BankUsers;
+import Semi5.Tack1.model.Company;
+import Semi5.Tack1.model.Human;
+import Semi5.Tack1.view.UserView;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 //Классы различных пользователей 2-3
 // Класс в сервисе, рассматривающий заявки на кредитование
 

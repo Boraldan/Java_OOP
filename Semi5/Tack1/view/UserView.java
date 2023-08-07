@@ -1,8 +1,8 @@
-package Semi5.view;
+package Semi5.Tack1.view;
 
-import Semi5.model.User;
-import Semi5.service.UserService;
-import Semi5.service.UserServiceImpl;
+import Semi5.Tack1.model.User;
+import Semi5.Tack1.service.UserService;
+import Semi5.Tack1.service.UserServiceImpl;
 
 public class UserView {
     private UserService userService = new UserServiceImpl();

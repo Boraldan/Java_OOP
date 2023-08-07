@@ -1,4 +1,4 @@
-package Semi5.model;
+package Semi5.Tack1.model;
 
 public class User {
     private String name;

@@ -1,6 +1,6 @@
-package Semi5.service;
+package Semi5.Tack1.service;
 
-import Semi5.model.User;
+import Semi5.Tack1.model.User;
 
 public interface UserService {
      void save(User user);

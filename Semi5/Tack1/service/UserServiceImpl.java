@@ -1,8 +1,6 @@
-package Semi5.service;
+package Semi5.Tack1.service;
 
-import Semi5.model.Company;
-import Semi5.model.Human;
-import Semi5.model.User;
+import Semi5.Tack1.model.User;
 
 import java.io.FileWriter;
 

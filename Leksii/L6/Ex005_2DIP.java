@@ -6,8 +6,9 @@ package Leksii.L6;// Interface segregation principle
 
 public class Ex005_2DIP {
     public static void main(String[] args) {
-        BookDIP bookDIP = new BookDIP(new ConsoleViewDIP());
-        bookDIP.viewAuthor();
+        BookDIP bookDIP = new BookDIP();
+        bookDIP.setView(new ConsoleViewDIP()).viewAuthor();
+//        bookDIP.viewAuthor();   // вариант вызова 1
     }
 }
 
@@ -32,14 +33,22 @@ class WinFormViewDIP implements ViewDIP {
 class BookDIP {
     ViewDIP view;
 
-    public void setView(ViewDIP view) {
+//    public void setView(ViewDIP view) { // вариант 1
+//        this.view = view;
+//    }
+
+    public BookDIP setView(ViewDIP view) {
         this.view = view;
+        return this;
     }
 
     int indexPage;
 
-    public BookDIP(ViewDIP view) {
-        this.view = view;
+//    public BookDIP(ViewDIP view) {
+//        this.view = view;
+//        indexPage = 1;
+//    }
+    public BookDIP() {
         indexPage = 1;
     }
 
